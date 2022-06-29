@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400&display=swap');
+@import 'header.css';
+@import 'main.css';
+@import 'footer.css';
+
+:root {
+    --dark-blue: hsl(233deg, 26%, 24%);
+    --lime-green: hsl(136deg, 65%, 51%);
+    --bright-cyan: hsl(192deg, 70%, 51%);
+    --grayish-blue: hsl(233deg, 8%, 62%);
+    --light-grayish-blue: hsl(220deg, 16%, 96%);
+    --very-light-gray: hsl(0deg, 0%, 98%);
+    --white: hsl(0deg, 0%, 100%);
+    --gradient-limegreen-brightcyan: linear-gradient(135deg, var(--lime-green), var(--bright-cyan))
+}
+
+* {
+    font-family: 'Public Sans', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+body > div:nth-of-type(2n+1) {
+    background-color: var(--very-light-gray);
+}
+
+body > div:nth-of-type(2n) {
+    background-color: var(--light-grayish-blue);
+}
+
+.text-graylish-blue {
+    color: var(--grayish-blue) !important;
+}
+
+.text-dark-blue {
+    color: var(--dark-blue) !important;
+}
+
+.bg-dark-blue {
+    background-color: var(--dark-blue);
+}
+
+.custom-btn {
+    background: var(--gradient-limegreen-brightcyan);
+    border-radius: 50px !important;
+    color: var(--white) !important;
+    font-weight: bolder !important;
+}
+
+.custom-btn:hover {
+    opacity: .7;
+} 

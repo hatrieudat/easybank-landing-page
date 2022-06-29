@@ -1,0 +1,62 @@
+#strong-point-cards {
+    padding-top: 6em !important;
+    padding-bottom: 2em !important;
+}
+
+#lastest-article {
+    padding-top: 6em !important;
+    padding-bottom: 2em !important;
+}
+
+#lastest-article .row {
+    font-size: .8rem;
+}
+
+#lastest-article .card img {
+    height: 15vw;
+}
+
+#lastest-article .card .card-body .card-title:hover {
+    cursor: pointer;
+    color: var(--lime-green) !important;
+    opacity: .8;
+}
+
+.animated-fadeinout {
+    animation: 1.5s ease-in-out fadeInOut;
+}
+
+.animated-fadeinright:nth-child(1) {
+    animation: .5s ease-in fadeInRight;
+}
+.animated-fadeinright:nth-child(2) {
+    animation: .75s ease-in fadeInRight;
+}
+.animated-fadeinright:nth-child(3) {
+    animation: 1s ease-in fadeInRight;
+}
+.animated-fadeinright:nth-child(4) {
+    animation: 1.25s ease-in fadeInRight;
+}
+
+@keyframes fadeInOut {
+    0% {
+        transform: translate3d(0, 100px, 0);
+        opacity: 0;
+    }
+    100% {
+        transform: translate3d(0, 0, 0);
+        opacity: 1;
+    }
+}
+
+@keyframes fadeInRight {
+    0% {
+        transform: translate3d(100%, 0 ,0);
+        opacity: 0;
+    }
+    100% {
+        transform: translate3d(0, 0, 0);
+        opacity: 1;
+    }
+}

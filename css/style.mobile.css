@@ -1,0 +1,57 @@
+@media only screen and (max-width: 768px) {
+    body {
+        margin: 0 !important;
+    }
+
+    .left-wrapper {
+        margin: 2em 0 !important;
+        text-align: center;
+        order: 2;
+    }
+    
+    .right-wrapper {
+        background: url('../images/bg-intro-mobile.svg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: 0 -50px;
+        order: 1;
+        overflow: hidden;
+        height: 80vw;
+    }
+
+    .right-wrapper>img {
+        width: 100%;
+        position: unset;
+        transform: translateY(-29%);
+    }
+    
+    #strong-point-cards,
+    #lastest-article > h1 {
+        text-align: center;
+    }
+
+    #strong-point-cards p {
+        margin-bottom: 0 !important;
+    }
+
+    #strong-point-cards .card,
+    #lastest-article .card {
+        padding: .8rem !important;
+    }
+
+    #strong-point-cards img {
+        margin: 0 auto;
+    }
+
+    #strong-point-cards .card-title {
+        padding: 0 !important;
+    }
+
+    #strong-point-cards .card-body {
+        padding: 1rem !important;
+    }
+
+    #lastest-article .card img {
+        height: 35vw;
+    }
+}   
