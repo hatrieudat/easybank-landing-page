@@ -52,4 +52,21 @@ body > div:nth-of-type(2n) {
 
 .custom-btn:hover {
     opacity: .7;
-} 
+}
+
+.text-hover {
+    cursor: pointer;
+    color: var(--white);
+}
+
+.text-hover:hover {
+    color: var(--lime-green);
+}
+
+.icon-social-media {
+    cursor: pointer;
+}
+
+.icon-social-media:hover {
+    filter: brightness(0) saturate(100%) invert(89%) sepia(55%) saturate(4042%) hue-rotate(59deg) brightness(87%) contrast(87%);
+}
